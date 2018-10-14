@@ -73,6 +73,8 @@ docker-compose down -v
 
 In real Cyber Jawara 2018 final contest, docker environments were built on October 9th, 2018. Results of `apt update` and `apt install` may be different when you build the services. All binary problems (p01-firmware, p02-sandbox, p05-crypto, p06-hades, p09-poseidon, and p11-zeus) are created to be solved in Ubuntu 18.10 with glibc 2.28.
 
+In original contest, flags are generated and distributed for each tick and placed in /var/flag/ directory with random name. In this test environments, a placeholder flag file is placed in /var/flag/00000000000000000000000000000000.
+
 ## Write Up
 
 You can contribute by adding the link to your write up here. A service can has more than one vulnerability so various solutions are welcomed.
