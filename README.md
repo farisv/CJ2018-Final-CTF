@@ -69,11 +69,11 @@ docker-compose down -v
 | p10-assignment        | Laravel is popular and loved by many. This web app is a simple assignment submission apps made with Laravel where you can upload an archive containing all of your exploit code (.c/.cpp/.py/.sh) and compute the SHA1 checksum of each file. For this service, all attack points are multiplied by 1.5x. | http://127.0.0.1:51000 |
 | p11-zeus              | In-memory key-value database server like Redis and Memcache is widely used for caching in a production server. Can you pwn this key-value database service? You need to reverse engineered it first to know what data structure is used for storing the data. This service is also run with sandbox. For patching, you are only allowed to patch 32 bytes in 'zeus' binary and only 2 bytes in 'zeus_sandbox'. For this service, all attack points are multiplied by 2x. | `nc 127.0.0.1 51100` |
 
-## Notes for Real Final Contest Environment
+## Notes About Original Contest Environments
 
-In real Cyber Jawara 2018 final contest, docker environments were built on October 9th, 2018. Results of `apt update` and `apt install` may be different when you build the services. All binary problems (p01-firmware, p02-sandbox, p05-crypto, p06-hades, p09-poseidon, and p11-zeus) are created to be solved in Ubuntu 18.10 with glibc 2.28.
+In original Cyber Jawara 2018 final contest, docker environments were built on October 9th, 2018. Results of `apt update` and `apt install` might be different when you build the services. All binary problems (p01-firmware, p02-sandbox, p05-crypto, p06-hades, p09-poseidon, and p11-zeus) are created to be solved in Ubuntu 18.10 with glibc 2.28 but it might be possible to solve it in other Ubuntu versions, other Linux distros, and other glibc versions.
 
-In original contest, flags are generated and distributed for each tick and placed in /var/flag/ directory with random name. In this test environments, a placeholder flag file is placed in /var/flag/00000000000000000000000000000000.
+In original contest, flags are generated and distributed for each tick and placed in `/var/flag/` directory with random name. In this test environments, a placeholder flag file is placed in `/var/flag/00000000000000000000000000000000`.
 
 ## Write Up
 
