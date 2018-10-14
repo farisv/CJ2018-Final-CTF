@@ -2,7 +2,7 @@
 
 Cyber Jawara is an annual national cyber security competition in Indonesia. The 2018 final stage was held in Bali as part of [Code Bali International Cyber Security Conference and Exhibitions](https://codebali.net/).
 
-The 2018 final contest is driven by Attack & Defense [CTF](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security) rule with custom scoring and mechanisms. Each team is given a set of vulnerable services. CTF Administrator generate and distribute the flags to each service for each tick (1 tick = ~10 minutes). Score is calculated for each round (1 round = 3 ricks) based on successful attacks (number of captured flags) and successful defense (number of defended flags). The goal of each team is to find vulnerabilities, patch their services, and exploit other team's services in order to get the flags.
+The 2018 final contest is driven by Attack & Defense [CTF](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security) rule with custom scoring and mechanisms. Each team is given a set of vulnerable services. CTF Administrator generate and distribute the flags to each service for each tick (1 tick = ~10 minutes). Score is calculated for each round (1 round = 3 ticks) based on successful attacks (number of captured flags) and successful defense (number of defended flags). The goal of each team is to find vulnerabilities, patch their services, and exploit other team's services in order to get the flags.
 
 This repository contains Cyber Jawara 2018 Final services docker environments. No pre-existing knowledge of docker is required, just execute some simple commands and you can test the services. No Attack & Defense Platform & Docker Manager included (only the services).
 
