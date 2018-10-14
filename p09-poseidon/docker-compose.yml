@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  main:
+    build: .
+    container_name: p09-poseidon
+    restart: on-failure
+    ports:
+      - "50900:8000"
+    network_mode: bridge

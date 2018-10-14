@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  main:
+    build: .
+    container_name: p05-crypto
+    restart: on-failure
+    ports:
+      - "50500:8000"
+    network_mode: bridge

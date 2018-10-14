@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  main:
+    build: .
+    container_name: p02-sandbox
+    restart: on-failure
+    ports:
+      - "50200:80"
+    network_mode: bridge
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined

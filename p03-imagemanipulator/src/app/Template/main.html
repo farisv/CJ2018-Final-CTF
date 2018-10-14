@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>CJ Image Manipulator</title>
+        <link href="assets/main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>CJ Image Manipulator</h1>
+        <h2>Fancy image manipulator for you</h2>
+
+        <form action="" method="POST" enctype="multipart/form-data" id="form">
+          <p>
+            <input type="checkbox" name="resize" value="resize"> Resize<br><input type="text" name="width" placeholder="width"><input type="text" name="height" placeholder="height">
+            <br>
+            <br>
+            <input type="checkbox" name="crop" value="crop"> Crop<br><input type="text" name="x1" placeholder="x1"><input type="text" name="y1" placeholder="y1"><input type="text" name="x2" placeholder="x2"><input type="text" name="y2" placeholder="y2">
+            <br>
+            <br>
+            <input type="checkbox" name="rotate" value="rotate"> Rotate<br><input type="text" name="angle" placeholder="angle">
+            <br>
+            <br>
+            <input type="checkbox" name="flip" value="flip"> Flip<br>
+            <input type="checkbox" name="mirror" value="mirror"> Mirror<br>
+            <input type="checkbox" name="grayscale" value="grayscale"> Grayscale<br>
+            <input type="checkbox" name="sepia" value="sepia"> Sepia<br>
+          </p>
+          <p class="file">
+            <input type="file" name="file" id="file" />
+            <label for="file">Upload your image</label>
+          </p>
+        </form>
+        <script type="text/javascript">
+    	  document.getElementById("file").onchange = function() {
+  		    document.getElementById("form").submit();
+          };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+	font-size: 67.5%;
+	font-family: Tahoma, sans-serif;
+}
+
+p, li {
+	font-size: 1.4em;
+}
+
+h1 {
+	font-size: 2.1em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+#page-wrap {
+	margin: 20px auto;
+	width: 750px;
+}
+
+textarea#styled {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}

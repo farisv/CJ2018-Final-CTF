@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  main:
+    build: .
+    container_name: p00-warmup
+    restart: on-failure
+    ports:
+      - "50000:80"
+    network_mode: bridge

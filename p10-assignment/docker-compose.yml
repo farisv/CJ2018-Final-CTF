@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  main:
+    build: .
+    container_name: p10-assignment
+    restart: on-failure
+    ports:
+      - "51000:80"
+    network_mode: bridge

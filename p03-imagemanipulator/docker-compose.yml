@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  main:
+    build: .
+    container_name: p03-imagemanipulator
+    restart: on-failure
+    ports:
+      - "50300:80"
+    network_mode: bridge

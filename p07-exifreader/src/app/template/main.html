@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>CJ Image EXIF Reader</title>
+        <link href="static/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>CJ Image EXIF Reader</h1>
+        <br><br>
+        <form class="form" method="POST" action="upload" enctype="multipart/form-data" id="form">
+           <p class="file">
+            <input type="file" name="file" id="file" />
+            <label for="file">Upload the Image</label>
+          </p>
+        </form>
+        <div class="container">
+        </div>
+        <script type="text/javascript">
+          document.getElementById("file").onchange = function() {
+              document.getElementById("form").submit();
+          };
+        </script>
+    </body>
+</html>
