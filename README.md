@@ -71,7 +71,9 @@ docker-compose down -v
 
 ## Notes About Original Contest Environments
 
-In original Cyber Jawara 2018 final contest, docker environments were built on October 9th, 2018. Results of `apt update` and `apt install` might be different when you build the services. All binary problems (p01-firmware, p02-sandbox, p05-crypto, p06-hades, p09-poseidon, and p11-zeus) are created to be solved in Ubuntu 18.10 with glibc 2.28 but it might be possible to solve it in other Ubuntu versions, other Linux distros, and other glibc versions. If you want to contribute so the installed dependency versions are fixed, you are very welcomed.
+In original Cyber Jawara 2018 final contest, docker environments were built on October 9th, 2018. Results of `apt update` and `apt install` might be different when you build the services. All binary problems (p01-firmware, p02-sandbox, p05-crypto, p06-hades, p09-poseidon, and p11-zeus) are created to be solved in Ubuntu 18.10 with glibc 2.28 but it might be possible to solve the problems in other Ubuntu versions, other Linux distros, or other glibc versions. If you want to contribute so the installed dependency versions are fixed, you are very welcomed.
+
+We know we use docker in "wrong way" when preparing the contest environments but at least they works like expected during competition.
 
 In original contest, flags are generated and distributed for each tick and placed in `/var/flag/` directory with random name. In this test environments, a placeholder flag file is placed in `/var/flag/00000000000000000000000000000000`.
 
