@@ -80,3 +80,6 @@ In original contest, flags are generated and distributed for each tick and place
 ## Write Up
 
 You can contribute by adding the link to your write up here. A service can has more than one vulnerability so various solutions are welcomed.
+
+- p11-zeus
+	- [https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/](https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/)
