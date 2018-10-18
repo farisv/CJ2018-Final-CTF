@@ -83,3 +83,14 @@ You can contribute by adding the link to your write up here. A service can has m
 
 - p11-zeus
 	- [https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/](https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/)
+- p03-imagemanipulator
+	- [https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P03-Image-Manipulator](https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P03-Image-Manipulator) 
+- p04-coderunner
+	- [https://www.rhama.my.id/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P04-Code-Runner](https://www.rhama.my.id/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P04-Code-Runner)
+- p07-exifreader
+	- [https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P07-Exif-Reader](https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P07-Exif-Reader)
+- p08-hackme
+	- [https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P08-Hackme](https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P08-Hackme)
+- p10-assignment
+	- [https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P10-Assignment-Solved-After-Competition](https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P10-Assignment-Solved-After-Competition) 
+
