@@ -81,8 +81,6 @@ In original contest, flags are generated and distributed for each tick and place
 
 You can contribute by adding the link to your write up here. A service can has more than one vulnerability so various solutions are welcomed.
 
-- p11-zeus
-	- [https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/](https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/)
 - p03-imagemanipulator
 	- [https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P03-Image-Manipulator](https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P03-Image-Manipulator) 
 - p04-coderunner
@@ -93,4 +91,5 @@ You can contribute by adding the link to your write up here. A service can has m
 	- [https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P08-Hackme](https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P08-Hackme)
 - p10-assignment
 	- [https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P10-Assignment-Solved-After-Competition](https://rhamaa.github.io/2018/10/17/Cyber-Jawara-2018-Final-Web-Exploitation/#P10-Assignment-Solved-After-Competition) 
-
+- p11-zeus
+	- [https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/](https://zeroload.github.io/2018/10/14/Cyber-Jawara-2018-Final-zeus/)
